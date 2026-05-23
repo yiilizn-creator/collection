@@ -20,7 +20,41 @@ npm run preview      # 静态构建 + 本地预览 http://localhost:3456
 bash scripts/share.sh  # 构建并生成公网链接（临时）
 ```
 
-## 在线预览（目标地址）
+## 部署到 GitHub（免费长期）
+
+代码已包含 GitHub Actions，推送到 `main` 分支后会自动构建并发布 **GitHub Pages**。
+
+### 1. 在 GitHub 创建仓库
+
+1. 打开 [github.com/new](https://github.com/new)
+2. 仓库名填 **`yilin-collection`**
+3. 选 **Public**，不要勾选 README（本地已有代码）
+4. 创建仓库
+
+### 2. 推送代码（终端执行）
+
+```bash
+cd /Users/zhangyilin/.cursor/projects/empty-window/entity-tales-portfolio
+
+git remote add origin https://github.com/你的用户名/yilin-collection.git
+git push -u origin main
+```
+
+（将 `你的用户名` 换成你的 GitHub 账号）
+
+### 3. 开启 GitHub Pages
+
+1. 仓库 → **Settings** → **Pages**
+2. **Build and deployment** → Source 选 **GitHub Actions**
+3. 等 Actions 跑完（约 2～3 分钟）
+
+### 4. 访问地址
+
+**https://你的用户名.github.io/yilin-collection/**
+
+---
+
+## 在线预览（Vercel，可选）
 
 **临时预览（几小时内有效，需保持电脑不睡眠）：** https://riverside-principle-melbourne-patrol.trycloudflare.com
 
