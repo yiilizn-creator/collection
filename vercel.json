@@ -1,0 +1,6 @@
+{
+  "name": "yilin-collection",
+  "buildCommand": "npm run build",
+  "outputDirectory": "out",
+  "framework": null
+}
