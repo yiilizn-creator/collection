@@ -29,7 +29,7 @@ jobs:
       - run: npm run build
         env:
           GITHUB_PAGES: "true"
-          GITHUB_PAGES_REPO: yilin-collection
+          GITHUB_PAGES_REPO: collection
 
       - uses: actions/upload-pages-artifact@v3
         with:

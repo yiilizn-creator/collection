@@ -1,5 +1,5 @@
 /** @type {import('next').NextConfig} */
-const repoName = process.env.GITHUB_PAGES_REPO || "yilin-collection";
+const repoName = process.env.GITHUB_PAGES_REPO || "collection";
 const isGithubPages = process.env.GITHUB_PAGES === "true";
 
 const nextConfig = {
