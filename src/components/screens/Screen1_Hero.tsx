@@ -11,6 +11,7 @@ import { RevealOnScroll } from "@/components/animations/RevealOnScroll";
 import { useScreenScrollAnimation } from "@/hooks/useScreenScrollAnimation";
 import { useReducedMotion } from "@/lib/useReducedMotion";
 import { useShutterSound } from "@/components/ui/ShutterSound";
+import { assetPath } from "@/lib/assetPath";
 
 function TypewriterText({ text }: { text: string }) {
   const [displayed, setDisplayed] = useState("");
@@ -100,7 +101,7 @@ export function Screen1_Hero() {
             >
               <div className="relative h-56 w-56 overflow-hidden rounded-full ring-1 ring-white/90 sm:h-64 sm:w-64 lg:h-72 lg:w-72">
                 <Image
-                  src="/avatar.png"
+                  src={assetPath("/avatar.png")}
                   alt={`${profile.name} 个人头像`}
                   fill
                   priority

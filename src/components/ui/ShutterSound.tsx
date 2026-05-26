@@ -9,9 +9,10 @@ import {
   useState,
   type ReactNode,
 } from "react";
+import { assetPath } from "@/lib/assetPath";
 
 const SOUND_STORAGE_KEY = "portfolio-audio-enabled";
-const TYPEWRITER_SRC = "/audio/typewriter.mp3";
+const TYPEWRITER_SRC = assetPath("/audio/typewriter.mp3");
 const CLICK_VOLUME = 0.55;
 const TYPEWRITER_VOLUME = 0.55;
 const TYPEWRITER_POOL_SIZE = 4;

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Noto_Serif_SC, DM_Sans } from "next/font/google";
 import { siteName } from "@/data/portfolio";
+import { assetPath } from "@/lib/assetPath";
 import "./globals.css";
 
 const display = Noto_Serif_SC({
@@ -19,9 +20,9 @@ export const metadata: Metadata = {
   title: siteName,
   description: "造影为浪，执品成光 — 张宜琳产品经理个人作品集",
   icons: {
-    icon: [{ url: "/favicon.png", type: "image/png" }],
-    apple: "/favicon.png",
-    shortcut: "/favicon.png",
+    icon: [{ url: assetPath("/favicon.png"), type: "image/png" }],
+    apple: assetPath("/favicon.png"),
+    shortcut: assetPath("/favicon.png"),
   },
 };
 

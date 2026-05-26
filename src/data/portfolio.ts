@@ -1,3 +1,5 @@
+import { assetPath } from "@/lib/assetPath";
+
 export const siteName = "张宜琳作品集-产品经理";
 
 export const profile = {
@@ -104,7 +106,7 @@ export const photography = {
     {
       id: "w1",
       title: "春日序曲",
-      src: "/photos/photo-1.png",
+      src: assetPath("/photos/photo-1.png"),
       alt: "春日序曲",
       width: 1200,
       height: 900,
@@ -112,7 +114,7 @@ export const photography = {
     {
       id: "w2",
       title: "镜中诗篇",
-      src: "/photos/photo-2.png",
+      src: assetPath("/photos/photo-2.png"),
       alt: "镜中诗篇",
       width: 1200,
       height: 900,
@@ -120,7 +122,7 @@ export const photography = {
     {
       id: "w3",
       title: "夜色玫瑰",
-      src: "/photos/photo-3.png",
+      src: assetPath("/photos/photo-3.png"),
       alt: "夜色玫瑰",
       width: 1200,
       height: 900,
@@ -128,7 +130,7 @@ export const photography = {
     {
       id: "w4",
       title: "游园漫步",
-      src: "/photos/photo-4.png",
+      src: assetPath("/photos/photo-4.png"),
       alt: "游园漫步",
       width: 1200,
       height: 900,
@@ -136,7 +138,7 @@ export const photography = {
     {
       id: "w5",
       title: "云间寄语",
-      src: "/photos/photo-5.png",
+      src: assetPath("/photos/photo-5.png"),
       alt: "云间寄语",
       width: 1200,
       height: 900,
@@ -144,7 +146,7 @@ export const photography = {
     {
       id: "w6",
       title: "暮色海岸",
-      src: "/photos/photo-6.png",
+      src: assetPath("/photos/photo-6.png"),
       alt: "暮色海岸",
       width: 1200,
       height: 900,
@@ -152,7 +154,7 @@ export const photography = {
     {
       id: "w7",
       title: "走廊气球",
-      src: "/photos/photo-7.png",
+      src: assetPath("/photos/photo-7.png"),
       alt: "走廊气球",
       width: 1200,
       height: 900,
@@ -160,7 +162,7 @@ export const photography = {
     {
       id: "w8",
       title: "林间碎光",
-      src: "/photos/photo-8.png",
+      src: assetPath("/photos/photo-8.png"),
       alt: "林间碎光",
       width: 1200,
       height: 900,
@@ -168,7 +170,7 @@ export const photography = {
     {
       id: "w9",
       title: "午后小憩",
-      src: "/photos/photo-9.png",
+      src: assetPath("/photos/photo-9.png"),
       alt: "午后小憩",
       width: 1200,
       height: 900,
@@ -178,8 +180,8 @@ export const photography = {
     {
       id: "v-taopao",
       title: "逃跑是最完美的解法吗",
-      poster: "/videos/poster-taopao.png",
-      src: "/videos/taopao-zuiwanmei-jiefa-720p.mp4",
+      poster: assetPath("/videos/poster-taopao.png"),
+      src: assetPath("/videos/taopao-zuiwanmei-jiefa-720p.mp4"),
       featured: true,
     },
   ],
